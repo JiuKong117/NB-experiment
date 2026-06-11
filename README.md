@@ -2,6 +2,8 @@
 
 本仓库整理了基于 STM32WLE5 的窄带通信实验代码，主要内容包括温度采集、光照采集以及温度/光照双向 LoRa 通信。工程使用 STM32CubeMX 生成初始化代码，使用 Keil MDK-ARM 编译和下载。
 
+仓库同时包含实验报告模板、完整实验报告以及各实验对应的程序流程图，便于复现实验和撰写课程报告。
+
 ## 硬件与环境
 
 - 主控芯片：STM32WLE5CCU6
@@ -15,13 +17,18 @@
 
 ```text
 STM32WL/
+├── diagram/                       # draw.io 流程图源文件和导出的 PNG 图片
+│   ├── 实验2/                     # 温度发送/接收流程图
+│   ├── 实验3/                     # 光照发送/接收流程图
+│   └── 实验4/                     # 温度节点/光照节点双向通信流程图
 ├── 实验2/
 │   └── Temperature/              # 温度采集与 LoRa 传输实验
 ├── 实验3/
 │   └── Light/                    # 光照采集与 LoRa 传输实验
 ├── 实验4/
 │   └── Light and Temperature/    # 温度与光照双向通信综合实验
-└── 窄带实验报告.doc
+├── 窄带实验报告模板.doc
+└── 窄带实验报告1.doc              # 完整实验报告
 ```
 
 每个实验工程都保留了 CubeMX 工程文件和 Keil 工程文件：
@@ -65,6 +72,14 @@ MDK-ARM/Demo9_1SPI.uvprojx
 - `1`：温度发送端
 - `0`：温度接收端
 
+相关流程图：
+
+```text
+diagram/实验2/lora_temperature_program_flowchart.drawio
+diagram/实验2/lora_temperature_program_flowchart-LoRa 温度发送程序流程图.drawio.png
+diagram/实验2/lora_temperature_program_flowchart-LoRa 温度接收程序流程图.drawio.png
+```
+
 ## 实验3：光照数据采集与通信
 
 工程路径：
@@ -98,6 +113,14 @@ MDK-ARM/Demo9_1SPI.uvprojx
 
 - `1`：光照发送端
 - `0`：光照接收端
+
+相关流程图：
+
+```text
+diagram/实验3/lora_light_program_flowchart.drawio
+diagram/实验3/lora_temperature_program_flowchart-LoRa 光照发送程序流程图.drawio.png
+diagram/实验3/lora_temperature_program_flowchart-LoRa 光照接收程序流程图.drawio.png
+```
 
 ## 实验4：温度与光照双向通信
 
@@ -150,6 +173,25 @@ RX L:1234
 TX L:1234
 RX T:25.3C
 ```
+
+相关流程图：
+
+```text
+diagram/实验4/lora_dual_node_program_flowchart.drawio
+diagram/实验4/lora_temperature_program_flowchart-2.1 温度节点程序流程图.drawio.png
+diagram/实验4/lora_temperature_program_flowchart-2.2 光照节点程序流程图.drawio.png
+```
+
+## 实验报告与流程图
+
+根目录包含两份 Word 文档：
+
+```text
+窄带实验报告模板.doc    # 报告模板
+窄带实验报告1.doc       # 已完成的实验报告
+```
+
+`diagram/` 目录保存了流程图资料，其中 `.drawio` 文件可继续用 draw.io 编辑，`.png` 文件可直接插入实验报告或 README。
 
 ## 编译与下载
 
