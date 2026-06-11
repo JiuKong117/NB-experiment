@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7] [cursor=pointer]: 4T评测网
+          - list [ref=e8]:
+            - listitem [ref=e9] [cursor=pointer]:
+              - link "首页" [ref=e10]:
+                - /url: /
+                - generic [ref=e11]: 首页
+            - listitem [ref=e12] [cursor=pointer]:
+              - link "社区" [ref=e13]:
+                - /url: /community
+                - generic [ref=e14]: 社区
+            - listitem [ref=e15] [cursor=pointer]:
+              - link "学习" [ref=e16]:
+                - /url: /curriculum
+                - generic [ref=e17]: 学习
+            - listitem [ref=e18] [cursor=pointer]:
+              - link "题库" [ref=e19]:
+                - /url: /questions
+                - generic [ref=e20]: 题库
+            - listitem [ref=e21] [cursor=pointer]:
+              - link "商城" [ref=e22]:
+                - /url: /mall
+                - generic [ref=e23]: 商城
+            - listitem [ref=e24] [cursor=pointer]:
+              - link "竞赛" [ref=e25]:
+                - /url: /competition
+                - generic [ref=e26]: 竞赛
+        - generic "AI小助手" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - generic [ref=e31]:
+          - generic [ref=e32] [cursor=pointer]: 登录
+          - generic [ref=e33] [cursor=pointer]: 注册
+    - generic [ref=e37]:
+      - heading "1、产品概述" [level=1] [ref=e38]
+      - paragraph [ref=e39]: 物联网设计与开发竞赛实训平台由蓝桥杯大赛技术支持单位北京四梯科技有限公司设计和生产，该产品可用于参加蓝桥杯物联网设计与开发赛道的竞赛实训或院校相关课程的实践教学环节。
+      - paragraph [ref=e40]: 产品基于 STM32WLE5 Sub-GHz 无线微控制器设计，芯片提供了 256KB FLASH 和 64KB SRAM 存储器，最高主频 48MHz，内部集成 ARM Cortex M4 内核和无线通讯单元，支持 LoRa ®、(G)FSK、(G)MSK 和 BPSK 调试模式。产品配置按键、指示灯、调试器、OLED 显示屏、通用传感器接口、EEPROM 存储器等 MCU 典型外围器件，单 USB Type C 接口 供电，支持串口通讯、程序下载和在线调试功能。
+      - paragraph [ref=e41]: 主要特点
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - paragraph [ref=e44]: 高集成性，集成了典型功能模块，为用户提供完整的实验环境。
+        - listitem [ref=e45]:
+          - paragraph [ref=e46]: 通信方式，支持 LoRa®、(G)FSK、(G)MSK 和 BPSK 等多种调试模式。
+        - listitem [ref=e47]:
+          - paragraph [ref=e48]: 开发生态，支持 STM32 Cube MX/ ARM-MDK 开发工具与环境，生态友好。
+        - listitem [ref=e49]:
+          - paragraph [ref=e50]: 可扩展性，引出 TIM/SPI/I2C/ADC/USART 等 MCU 核心外设，可扩展性强。
+        - listitem [ref=e51]:
+          - paragraph [ref=e52]: 结构灵活，提供一体式、分体式两种解决方案，适用不同场景需求。
+        - listitem [ref=e53]:
+          - paragraph [ref=e54]: 易于教学，产品设计简单，接口、结构清晰，提供教材、视频课件支持，非常适合 用于院校实践教学，能够帮助学生快速上手并掌握物联网开发的基本技能。
+      - paragraph [ref=e55]:
+        - img "img" [ref=e56]
+      - paragraph [ref=e57]:
+        - img "img" [ref=e58]
+      - heading "2、资源配置" [level=1] [ref=e59]
+      - figure [ref=e60]:
+        - table [ref=e61]:
+          - rowgroup [ref=e62]:
+            - row "MCU STM32WLE5，ARM Cortex M4 内核集成 Sub-GHz 单元" [ref=e63]:
+              - columnheader "MCU" [ref=e64]
+              - columnheader "STM32WLE5，ARM Cortex M4 内核集成 Sub-GHz 单元" [ref=e65]
+          - rowgroup [ref=e66]:
+            - row "显示器 I2C接口/0.91寸OLED显示器" [ref=e67]:
+              - cell "显示器" [ref=e68]
+              - cell "I2C接口/0.91寸OLED显示器" [ref=e69]
+            - row "按键 复位按键×1，用户按键×2" [ref=e70]:
+              - cell "按键" [ref=e71]
+              - cell "复位按键×1，用户按键×2" [ref=e72]
+            - row "指示灯 LED（R） 、LED（G）、LED（B）" [ref=e73]:
+              - cell "指示灯" [ref=e74]
+              - cell "LED（R） 、LED（G）、LED（B）" [ref=e75]
+            - row "电位器 1路连续可调电压输出" [ref=e76]:
+              - cell "电位器" [ref=e77]
+              - cell "1路连续可调电压输出" [ref=e78]
+            - row "存储器 EEPROM/AT24C02存储器" [ref=e79]:
+              - cell "存储器" [ref=e80]
+              - cell "EEPROM/AT24C02存储器" [ref=e81]
+            - row "串口通讯 USB转UART" [ref=e82]:
+              - cell "串口通讯" [ref=e83]
+              - cell "USB转UART" [ref=e84]
+            - row "调试器 搭载DAP_Link调试器" [ref=e85]:
+              - cell "调试器" [ref=e86]
+              - cell "搭载DAP_Link调试器" [ref=e87]
+            - row "扩展接口 此接口引出 I2C/USART/SPI/ADC/TIM 等 MCU 核心外设" [ref=e88]:
+              - cell "扩展接口" [ref=e89]
+              - cell "此接口引出 I2C/USART/SPI/ADC/TIM 等 MCU 核心外设" [ref=e90]
+            - row "供电接口 单USB Type-C" [ref=e91]:
+              - cell "供电接口" [ref=e92]
+              - cell "单USB Type-C" [ref=e93]
+      - heading "3、资料下载" [level=1] [ref=e94]
+      - figure [ref=e95]:
+        - table [ref=e96]:
+          - rowgroup [ref=e97]:
+            - row "名称 版本 资源类型 更新时间" [ref=e98]:
+              - columnheader "名称" [ref=e99]:
+                - strong [ref=e100]: 名称
+              - columnheader "版本" [ref=e101]:
+                - strong [ref=e102]: 版本
+              - columnheader "资源类型" [ref=e103]:
+                - strong [ref=e104]: 资源类型
+              - columnheader "更新时间" [ref=e105]:
+                - strong [ref=e106]: 更新时间
+          - rowgroup [ref=e107]:
+            - row "SCH_CT127C_V3S 1.0 原理图 2024-7-22" [ref=e108]:
+              - cell "SCH_CT127C_V3S" [ref=e109]:
+                - link "SCH_CT127C_V3S" [ref=e111] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/file/202408/SCH_V3S.pdf
+              - cell "1.0" [ref=e112]
+              - cell "原理图" [ref=e113]
+              - cell "2024-7-22" [ref=e114]
+            - row "SCH_CT127C_V3T 1.0 原理图 2024-7-22" [ref=e115]:
+              - cell "SCH_CT127C_V3T" [ref=e116]:
+                - link "SCH_CT127C_V3T" [ref=e118] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/file/202408/SCH_V3T.pdf
+              - cell "1.0" [ref=e119]
+              - cell "原理图" [ref=e120]
+              - cell "2024-7-22" [ref=e121]
+            - row "SCH_CT127C_EX01_05 1.0 原理图 2024-7-22" [ref=e122]:
+              - cell "SCH_CT127C_EX01_05" [ref=e123]:
+                - link "SCH_CT127C_EX01_05" [ref=e125] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/SCH_EX01_05.zip
+              - cell "1.0" [ref=e126]
+              - cell "原理图" [ref=e127]
+              - cell "2024-7-22" [ref=e128]
+            - row "资料说明：本资料描述了蓝桥杯物联网竞赛实训平台上各元器件间的连接关系" [ref=e129]:
+              - cell "资料说明：本资料描述了蓝桥杯物联网竞赛实训平台上各元器件间的连接关系" [ref=e130]
+              - cell [ref=e131]
+              - cell [ref=e132]
+              - cell [ref=e133]
+            - row "CT127C_产品使用说明书 1.0 用户手册 2024-8-8" [ref=e134]:
+              - cell "CT127C_产品使用说明书" [ref=e135]:
+                - link "CT127C_产品使用说明书" [ref=e137] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/CT127C_UM.pdf
+              - cell "1.0" [ref=e138]
+              - cell "用户手册" [ref=e139]
+              - cell "2024-8-8" [ref=e140]
+            - row "资料说明：本文档描述了蓝桥杯物联网竞赛实训平台相关产品介绍、硬件说明、开发环境和应用编程简述" [ref=e141]:
+              - cell "资料说明：本文档描述了蓝桥杯物联网竞赛实训平台相关产品介绍、硬件说明、开发环境和应用编程简述" [ref=e142]
+              - cell [ref=e143]
+              - cell [ref=e144]
+              - cell [ref=e145]
+            - row "DataSheet 1.0 用户手册 2024-8-29" [ref=e146]:
+              - cell "DataSheet" [ref=e147]:
+                - link "DataSheet" [ref=e149] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Data_Sheet.zip
+              - cell "1.0" [ref=e150]
+              - cell "用户手册" [ref=e151]
+              - cell "2024-8-29" [ref=e152]
+            - row "资料说明：本资料包含开发蓝桥杯物联网竞赛实训平台需要用到的芯片资料，包含以下文件：STM32WLE5数据手册、参考手册，OLED数据手册、STS30数字温度计数据手册、红外热释电数据手册。" [ref=e153]:
+              - cell "资料说明：本资料包含开发蓝桥杯物联网竞赛实训平台需要用到的芯片资料，包含以下文件：STM32WLE5数据手册、参考手册，OLED数据手册、STS30数字温度计数据手册、红外热释电数据手册。" [ref=e154]
+              - cell [ref=e155]
+              - cell [ref=e156]
+              - cell [ref=e157]
+            - row "Software 1.0 用户手册 2024-8-29" [ref=e158]:
+              - cell "Software" [ref=e159]:
+                - link "Software" [ref=e161] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Software.zip
+              - cell "1.0" [ref=e162]
+              - cell "用户手册" [ref=e163]
+              - cell "2024-8-29" [ref=e164]
+            - row "资料说明：本资料包含了开发STM32WLE5芯片的软件环境以及器件支持包" [ref=e165]:
+              - cell "资料说明：本资料包含了开发STM32WLE5芯片的软件环境以及器件支持包" [ref=e166]
+              - cell [ref=e167]
+              - cell [ref=e168]
+              - cell [ref=e169]
+      - heading "4、应用编程案例下载" [level=1] [ref=e170]
+      - figure [ref=e171]:
+        - table [ref=e172]:
+          - rowgroup [ref=e173]:
+            - row "名称 描述 更新时间" [ref=e174]:
+              - columnheader "名称" [ref=e175]:
+                - strong [ref=e176]: 名称
+              - columnheader "描述" [ref=e177]:
+                - strong [ref=e178]: 描述
+              - columnheader "更新时间" [ref=e179]:
+                - strong [ref=e180]: 更新时间
+          - rowgroup [ref=e181]:
+            - row "Demo2_1KEY_LED 按键控制指示灯的亮灭 2024-8-29" [ref=e182]:
+              - cell "Demo2_1KEY_LED" [ref=e183]:
+                - link "Demo2_1KEY_LED" [ref=e185] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo2_1KEY_LED.7z
+              - cell "按键控制指示灯的亮灭" [ref=e186]
+              - cell "2024-8-29" [ref=e187]
+            - row "Demo3_1EXTI 外部中断应用 2024-8-29" [ref=e188]:
+              - cell "Demo3_1EXTI" [ref=e189]:
+                - link "Demo3_1EXTI" [ref=e191] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo3_1EXTI.7z
+              - cell "外部中断应用" [ref=e192]
+              - cell "2024-8-29" [ref=e193]
+            - row "Demo4_1OLED OLED显示 2024-8-29" [ref=e194]:
+              - cell "Demo4_1OLED" [ref=e195]:
+                - link "Demo4_1OLED" [ref=e197] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo4_1OLED.7z
+              - cell "OLED显示" [ref=e198]
+              - cell "2024-8-29" [ref=e199]
+            - row "Demo4_2Framework 按键切换OLED显示内容 2024-8-29" [ref=e200]:
+              - cell "Demo4_2Framework" [ref=e201]:
+                - link "Demo4_2Framework" [ref=e203] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo4_2Framework.7z
+              - cell "按键切换OLED显示内容" [ref=e204]
+              - cell "2024-8-29" [ref=e205]
+            - row "Demo4_3EX01_KB6 EX01_键盘模块应用编程应用 2024-8-29" [ref=e206]:
+              - cell "Demo4_3EX01_KB6" [ref=e207]:
+                - link "Demo4_3EX01_KB6" [ref=e209] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo4_3EX01_KB6.7z
+              - cell "EX01_键盘模块应用编程应用" [ref=e210]
+              - cell "2024-8-29" [ref=e211]
+            - row "Demo5_1UART 串口接收与发送 2024-8-29" [ref=e212]:
+              - cell "Demo5_1UART" [ref=e213]:
+                - link "Demo5_1UART" [ref=e215] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo5_1UART.7z
+              - cell "串口接收与发送" [ref=e216]
+              - cell "2024-8-29" [ref=e217]
+            - row "Demo5_2Put_Log 串口打印日志 2024-8-29" [ref=e218]:
+              - cell "Demo5_2Put_Log" [ref=e219]:
+                - link "Demo5_2Put_Log" [ref=e221] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo5_2Put_Log.7z
+              - cell "串口打印日志" [ref=e222]
+              - cell "2024-8-29" [ref=e223]
+            - row "Demo6_2EX03_Temperature EX03_温度传感器模块编程应用 2024-8-29" [ref=e224]:
+              - cell "Demo6_2EX03_Temperature" [ref=e225]:
+                - link "Demo6_2EX03_Temperature" [ref=e227] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo6_2EX03_Temperature.7z
+              - cell "EX03_温度传感器模块编程应用" [ref=e228]
+              - cell "2024-8-29" [ref=e229]
+            - row "Demo6_124C02 AT24C02的编程应用 2024-8-29" [ref=e230]:
+              - cell "Demo6_124C02" [ref=e231]:
+                - link "Demo6_124C02" [ref=e233] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo6_124C02.7z
+              - cell "AT24C02的编程应用" [ref=e234]
+              - cell "2024-8-29" [ref=e235]
+            - row "Demo7_1ADC_Poll 模拟电压采集 2024-8-29" [ref=e236]:
+              - cell "Demo7_1ADC_Poll" [ref=e237]:
+                - link "Demo7_1ADC_Poll" [ref=e239] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo7_1ADC_Poll.7z
+              - cell "模拟电压采集" [ref=e240]
+              - cell "2024-8-29" [ref=e241]
+            - row "Demo7_2EX02_ADC EX02_模拟电压输出模块编程应用 2024-8-29" [ref=e242]:
+              - cell "Demo7_2EX02_ADC" [ref=e243]:
+                - link "Demo7_2EX02_ADC" [ref=e245] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo7_2EX02_ADC.7z
+              - cell "EX02_模拟电压输出模块编程应用" [ref=e246]
+              - cell "2024-8-29" [ref=e247]
+            - row "Demo7_3EX05_PHOTO EX02_模拟电压输出模块编程应用 2024-8-29" [ref=e248]:
+              - cell "Demo7_3EX05_PHOTO" [ref=e249]:
+                - link "Demo7_3EX05_PHOTO" [ref=e251] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo7_3EX05_PHOTO.7z
+              - cell "EX02_模拟电压输出模块编程应用" [ref=e252]
+              - cell "2024-8-29" [ref=e253]
+            - row "Demo8_1TIM 使用TIM2实现1s周期中断 2024-8-29" [ref=e254]:
+              - cell "Demo8_1TIM" [ref=e255]:
+                - link "Demo8_1TIM" [ref=e257] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo8_1TIM.7z
+              - cell "使用TIM2实现1s周期中断" [ref=e258]
+              - cell "2024-8-29" [ref=e259]
+            - row "Demo8_2OutComp 方波信号的产生 2024-8-29" [ref=e260]:
+              - cell "Demo8_2OutComp" [ref=e261]:
+                - link "Demo8_2OutComp" [ref=e263] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo8_2OutComp.7z
+              - cell "方波信号的产生" [ref=e264]
+              - cell "2024-8-29" [ref=e265]
+            - row "Demo8_3EX04_PWM_IN EX04_脉冲模块编程应用 2024-8-29" [ref=e266]:
+              - cell "Demo8_3EX04_PWM_IN" [ref=e267]:
+                - link "Demo8_3EX04_PWM_IN" [ref=e269] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo8_3EX04_PWM_IN.7z
+              - cell "EX04_脉冲模块编程应用" [ref=e270]
+              - cell "2024-8-29" [ref=e271]
+            - row "Demo9_1SPI LoRa通信示例 2024-8-29" [ref=e272]:
+              - cell "Demo9_1SPI" [ref=e273]:
+                - link "Demo9_1SPI" [ref=e275] [cursor=pointer]:
+                  - /url: https://file.4t.wiki/static/resouce/Demo9_1SPI_LoRA.7z
+              - cell "LoRa通信示例" [ref=e276]
+              - cell "2024-8-29" [ref=e277]
+      - paragraph [ref=e278]
+    - contentinfo [ref=e279]:
+      - generic [ref=e280]:
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - img
+            - generic [ref=e283]: 扫一扫,关注四梯公众号
+          - generic [ref=e285]:
+            - generic [ref=e287]: 4T评测网
+            - generic [ref=e288]:
+              - generic [ref=e289]: 4T网秉承打通教育与人才培育的四个环节
+              - generic [ref=e290]: Teaching教学、Training实训、Testing测试、Talent人才的目标，
+              - generic [ref=e291]: 以科学评测为核心，构建电子信息领域完整的人才培养和就业的生态。
+            - generic [ref=e292]:
+              - button "关于我们" [ref=e293] [cursor=pointer]:
+                - generic [ref=e294]: 关于我们
+              - text: "|"
+              - button "问题反馈" [ref=e295] [cursor=pointer]:
+                - generic [ref=e296]: 问题反馈
+              - text: "|"
+              - button "新闻中心" [ref=e297] [cursor=pointer]:
+                - generic [ref=e298]: 新闻中心
+        - generic [ref=e300]:
+          - generic [ref=e301]: "公司地址: 北京市丰台区西四环中路112号阅园1区 - 北京四梯科技有限公司"
+          - generic [ref=e302]:
+            - text: "联系方式:"
+            - generic [ref=e303]:
+              - img [ref=e304]
+              - text: (+86) 010-88252799 | 0731-85660276
+          - generic [ref=e306]:
+            - text: "Email:"
+            - generic [ref=e307]:
+              - img [ref=e308]
+              - text: tech@4t.wiki
+          - link "京ICP备17055986号-2" [ref=e311] [cursor=pointer]:
+            - /url: https://tsm.miit.gov.cn/dxxzsp/
+            - img [ref=e312]
+            - generic [ref=e313]: 京ICP备17055986号-2
+  - img

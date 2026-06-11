@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "Demo9_1SPI_LoRA",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Stm/32/Keil5/ARM/ARMCLANG/include",
+                "D:/Stm/32/Keil5/ARM/ARMCLANG/include/libcxx"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32WLE5xx",
+                "CORE_CM4",
+                "APP_ROLE_TX_SENSOR=1"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/Core/Inc/main.h"
+            ],
+            "compilerPath": "D:/Stm/32/Keil5/ARM/ARMCLANG/bin/armclang.exe",
+            "compilerArgs": [
+                "--target=arm-arm-none-eabi",
+                "-mcpu=cortex-m4",
+                "-mthumb"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "windows-clang-arm",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "D:/Stm/32/Keil5/ARM/ARMCLANG/include"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}
