@@ -13,7 +13,7 @@
 #define LIGHT_RX_TIMEOUT_MS 5000U
 
 #ifndef APP_ROLE_TX_SENSOR
-#define APP_ROLE_TX_SENSOR 0
+#define APP_ROLE_TX_SENSOR 1
 #endif
 
 #define ASW_None 0x00

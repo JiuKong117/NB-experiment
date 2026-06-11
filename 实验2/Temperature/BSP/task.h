@@ -44,7 +44,6 @@ typedef struct
     uint8_t KEY_old;
 } KEY_State;
 
-
 extern uint16_t Time_Num;
 
 void BSP_Init(void);

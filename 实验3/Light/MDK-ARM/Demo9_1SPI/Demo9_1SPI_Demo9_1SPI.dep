@@ -53,7 +53,7 @@ I (..\Core\Inc\subghz.h)(0x66CF035D)
 I (..\Core\Inc\tim.h)(0x66CF035C)
 I (..\Core\Inc\usart.h)(0x66CF035C)
 I (..\Core\Inc\gpio.h)(0x66CF035D)
-I (..\BSP\task.h)(0x6A27CD40)
+I (..\BSP\task.h)(0x6A2A6CEE)
 I (..\BSP\oled.h)(0x66CF035D)
 I (D:\Stm\32\Keil5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
 I (..\BSP\lora.h)(0x66CF035D)
@@ -393,7 +393,7 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66CF0359)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66CF0359)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66CF0359)
 I (..\Core\Inc\stm32wlxx_it.h)(0x66CF035D)
-I (..\BSP\task.h)(0x6A27CD40)
+I (..\BSP\task.h)(0x6A2A6CEE)
 I (..\Core\Inc\adc.h)(0x66CF035D)
 I (..\BSP\oled.h)(0x66CF035D)
 I (D:\Stm\32\Keil5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
@@ -1560,7 +1560,7 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66CF0359)
 I (..\BSP\oled.h)(0x66CF035D)
 I (..\BSP\font.h)(0x66CF035D)
 F (..\BSP\task.c)(0x6A27C3D3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo9_1SPI-ID:/Stm/32/Keil5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/Stm/32/Keil5/ARM/PACK/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32WLE5xx -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo9_1spi/task.o -MD)
-I (..\BSP\task.h)(0x6A27CD40)
+I (..\BSP\task.h)(0x6A2A6CEE)
 I (..\Core\Inc\main.h)(0x66CF035D)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66CF035A)
 I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66CF035D)

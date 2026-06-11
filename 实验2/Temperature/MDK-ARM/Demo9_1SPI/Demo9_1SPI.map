@@ -3743,15 +3743,15 @@ Image component sizes
        108          0          0          0          0      23021   stm32wlxx_hal_tim_ex.o
       1332         30         24          0          0      32761   stm32wlxx_hal_uart.o
        344          0         16          0          0      11125   stm32wlxx_hal_uart_ex.o
-        76          0          0          0          0       1448   stm32wlxx_it.o
+        76          0          0          0          0       1452   stm32wlxx_it.o
         82          0          0          0         12       4703   subghz.o
          2          0        160          4          0       2487   system_stm32wlxx.o
-      1164         32          0          0        108      10992   task.o
+      1164         32          0          0        108      10996   task.o
        186          0          0          0         76       8298   tim.o
        270          0          0          0        148       7679   usart.o
 
     ----------------------------------------------------------------------
-     16640        100       2616         16      34832     369412   Object Totals
+     16640        100       2616         16      34832     369420   Object Totals
          0          0         32          0      32768          0   (incl. Generated)
        126          0          0          0          0          0   (incl. Padding)
 
@@ -3814,8 +3814,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     17884        144       2616         16      34928     369816   Grand Totals
-     17884        144       2616         16      34928     369816   ELF Image Totals
+     17884        144       2616         16      34928     369824   Grand Totals
+     17884        144       2616         16      34928     369824   ELF Image Totals
      17884        144       2616         16          0          0   ROM Totals
 
 ==============================================================================
