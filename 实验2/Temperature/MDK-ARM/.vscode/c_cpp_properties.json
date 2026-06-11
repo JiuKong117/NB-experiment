@@ -3,17 +3,17 @@
         {
             "name": "Demo9_1SPI",
             "includePath": [
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\Core\\Inc",
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\Drivers\\STM32WLxx_HAL_Driver\\Inc",
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\Drivers\\STM32WLxx_HAL_Driver\\Inc\\Legacy",
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\Drivers\\CMSIS\\Device\\ST\\STM32WLxx\\Include",
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\Drivers\\CMSIS\\Include",
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\BSP",
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\Core\\Inc",
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\Drivers\\STM32WLxx_HAL_Driver\\Inc",
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\Drivers\\STM32WLxx_HAL_Driver\\Inc\\Legacy",
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\Drivers\\CMSIS\\Device\\ST\\STM32WLxx\\Include",
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\Drivers\\CMSIS\\Include",
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\BSP",
                 "D:\\Stm\\32\\Keil5\\ARM\\ARMCLANG\\include",
                 "D:\\Stm\\32\\Keil5\\ARM\\ARMCLANG\\include\\libcxx",
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\MDK-ARM",
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\Core\\Src",
-                "d:\\文档\\Codex\\STM32WL\\Demo9_1SPI_LoRA\\Drivers\\STM32WLxx_HAL_Driver\\Src"
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\MDK-ARM",
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\Core\\Src",
+                "d:\\文档\\Codex\\STM32WL\\实验2\\Temperature\\Drivers\\STM32WLxx_HAL_Driver\\Src"
             ],
             "defines": [
                 "CORE_CM4",
